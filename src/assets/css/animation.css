@@ -1,0 +1,206 @@
+
+/* Animation Base Classes */
+.animate-on-scroll {
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+.animated {
+  opacity: 1;
+}
+
+/* Fade Animations */
+.fade-delay-100 {
+  transition-delay: 0.1s;
+}
+
+.fade-delay-200 {
+  transition-delay: 0.2s;
+}
+
+.fade-delay-300 {
+  transition-delay: 0.3s;
+}
+
+.fade-delay-400 {
+  transition-delay: 0.4s;
+}
+
+/* Slide Animations */
+.slide-in-left {
+  transform: translateX(-50px);
+}
+
+.slide-in-right {
+  transform: translateX(50px);
+}
+
+.slide-in-left.animated,
+.slide-in-right.animated {
+  transform: translateX(0);
+}
+
+/* Hover Effects */
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+/* Animation Classes for Bootstrap Carousel */
+.carousel-caption .animated.fadeInRight {
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.carousel-caption .animated.fadeInLeft {
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+imate-on-scroll {
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+.animated {
+  opacity: 1;
+}
+
+/* Fade Animations */
+.fade-delay-100 {
+  transition-delay: 0.1s;
+}
+
+.fade-delay-200 {
+  transition-delay: 0.2s;
+}
+
+.fade-delay-300 {
+  transition-delay: 0.3s;
+}
+
+.fade-delay-400 {
+  transition-delay: 0.4s;
+}
+
+/* Slide Animations */
+.slide-in-left {
+  transform: translateX(-50px);
+}
+
+.slide-in-right {
+  transform: translateX(50px);
+}
+
+.slide-in-left.animated,
+.slide-in-right.animated {
+  transform: translateX(0);
+}
+
+/* Hover Effects */
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+/* Animation Classes for Bootstrap Carousel */
+.carousel-caption .animated.fadeInRight {
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.carousel-caption .animated.fadeInLeft {
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* CSS for Transitions */
+.slide-enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slide-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 800ms ease, opacity 800ms ease;
+}
+
+.slide-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 800ms ease, opacity 800ms ease;
+}
+
+.caption-enter {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.caption-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 600ms ease 200ms, opacity 600ms ease 200ms;
+}
+
+.caption-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.caption-exit-active {
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: transform 600ms ease, opacity 600ms ease;
+}

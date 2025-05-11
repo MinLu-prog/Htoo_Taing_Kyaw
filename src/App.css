@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Organization Chart Styles */
+.org-chart-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 30px 0;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.org-chart-wrapper {
+  position: relative;
+  min-height: 500px;
+}
+
+.mermaid {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* Custom node styling for org chart */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path {
+  fill: #f6ab2e;
+  stroke: #333;
+  stroke-width: 1px;
+}
+
+.mermaid .node.executive rect,
+.mermaid .node.executive circle,
+.mermaid .node.executive ellipse {
+  fill: #f9d71c;
+  stroke-width: 2px;
+}
+
+.mermaid .node.director rect,
+.mermaid .node.director circle,
+.mermaid .node.director ellipse {
+  fill: #f6ab2e;
+}
+
+.mermaid .node.manager rect,
+.mermaid .node.manager circle,
+.mermaid .node.manager ellipse {
+  fill: #62c5e8;
+}
+
+.mermaid .edgePath .path {
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+.mermaid .edgeLabel {
+  background-color: #fff;
+  color: #333;
+}
+
+.mermaid .label {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+.org-chart-description {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .org-chart-container {
+    padding: 10px 0;
+  }
+  
+  .org-chart-wrapper {
+    min-height: 400px;
+  }
+}

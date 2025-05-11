@@ -1,0 +1,73 @@
+.org-chart-container {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+  margin: 40px 0;
+  padding: 30px 0;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+}
+
+.org-chart-wrapper {
+  position: relative;
+  min-height: 1000px; /* more vertical space */
+}
+
+.mermaid {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  transform: scale(1); /* make chart bigger */
+  transform-origin: top center;
+  margin-bottom: 60px;
+}
+
+/* Node styles */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon {
+  fill: #ffffff;
+  stroke: #000;
+  stroke-width: 1px;
+  rx: 5;
+  ry: 5;
+}
+
+/* Different levels of hierarchy */
+.mermaid .node.executive rect {
+  fill: #f9d71c;
+}
+.mermaid .node.director rect {
+  fill: #f6ab2e;
+}
+.mermaid .node.manager rect {
+  fill: #62c5e8;
+}
+.mermaid .node.staff rect {
+  fill: #c8e6f5;
+}
+
+/* Edge line styles */
+.mermaid .edgePath .path {
+  stroke: #222;
+  stroke-width: 1.5px;
+}
+.mermaid .label {
+  font-size: 18px;
+  color: #222;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .mermaid {
+    transform: scale(1);
+  }
+  .org-chart-wrapper {
+    min-height: 700px;
+  }
+  .mermaid .label {
+    font-size: 14px;
+  }
+}
