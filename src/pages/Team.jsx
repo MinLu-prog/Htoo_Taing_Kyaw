@@ -94,9 +94,15 @@ const Team = () => {
                 <h2>Experience & Expertise</h2>
               </div>
               <div className="about-text">
-                <p>Our team at Flomatexs Construction Limited brings together professionals with diverse expertise and backgrounds in the construction industry. Led by our CEO, Contractor Omondi, our team is committed to excellence in every project we undertake.</p>
-                <p>With a focus on innovation, quality, and customer satisfaction, our engineers and workers strive to exceed expectations and deliver results that stand the test of time. Each member of our team undergoes rigorous training and stays updated with the latest industry trends and technologies.</p>
-                <p>We believe that our strength lies in our people, and we take pride in the skills, dedication, and integrity that each team member brings to Flomatexs Construction Limited.</p>
+  <p>
+    At <strong>Htoo Taing Kyaw</strong>, our strength lies in a well-structured and collaborative team led by our top-tier leadership — the <strong>Managing Director</strong>, <strong>Director</strong>, and <strong>General Manager</strong> — who provide strategic direction and vision across the company.
+  </p>
+  <p>
+    Our operations are carried out through a unified structure consisting of key departments such as <strong>Administration</strong>, <strong>Operations</strong>, <strong>HR</strong>, <strong>Finance</strong>, <strong>Store</strong>, and <strong>Contracts</strong>. The <strong>Admin Department</strong>, led by an <strong>Admin Manager</strong>, ensures seamless internal coordination. Meanwhile, the <strong>Operations Department</strong> is divided into specialized roles including <strong>Construction</strong>, <strong>Electrical</strong>, and <strong>Plumbing & Sanitary Consultants</strong>, each supported by experienced <strong>Project Engineers</strong> and dedicated <strong>Engineer Teams</strong>.
+  </p>
+  <p>
+    This clearly defined hierarchy allows us to maintain efficiency, clarity, and accountability in every aspect of our operations. From planning to execution, every department works in harmony to deliver high-quality results and uphold the company’s reputation for excellence. At Htoo Taing Kyaw, we are committed to professionalism, innovation, and long-term value in every project we undertake.
+  </p>
               </div>
             </div>
           </div>
