@@ -16,7 +16,7 @@ import teamMember1 from '../assets/img/Design.jpg';
 import teamMember2 from '../assets/img/QC.png';
 import teamMember3 from '../assets/img/Construction.jpg';
 import teamMember4 from '../assets/img/M&E.jpg';
-
+import teamMember5 from '../assets/img/Solar.png';
 const Home = () => {
   // Create a ref to store animation elements
   const animatedElementsRef = useRef([]);
@@ -555,6 +555,17 @@ const Home = () => {
                 </div>
               </div>
             </div>
+              <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                          <div className="team-item">
+                            <div className="team-img">
+                              <img src={teamMember5} alt="Team Image" />
+                            </div>
+                            <div className="team-text">
+                              <h2>Solar Project Team</h2>
+                              
+                            </div>
+                          </div>
+                  </div>
           </div>
         </div>
       </div>

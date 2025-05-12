@@ -7,7 +7,8 @@ import service2 from '../assets/img/service-2.jpg';
 import service3 from '../assets/img/mengi.jpg';
 import service4 from '../assets/img/service-4.jpg';
 import service5 from '../assets/img/service-5.jpg';
-import service6 from '../assets/img/painting.jpeg';
+import service6 from  '../assets/img/service-6.PNG';
+import service7 from '../assets/img/painting.jpeg';
 
 const Services = () => {
   return (
@@ -106,10 +107,24 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="service-item">
                 <div className="service-img">
                   <img src={service6} alt="Image" />
+                  <div className="service-overlay">
+                    <p>"Delivering trusted solar solutions with expert installation, long-term savings, and sustainable energy you can count on — powering your future with confidence."</p>
+                  </div>
+                </div>
+                <div className="service-text">
+                  <h3>Solar Installation</h3>
+                  <Link className="btn" to="/contact">+</Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+              <div className="service-item">
+                <div className="service-img">
+                  <img src={service7} alt="Image" />
                   <div className="service-overlay">
                     <p>"Bringing vibrance and character to spaces with expertly applied strokes, transforming walls into works of art."</p>
                   </div>
