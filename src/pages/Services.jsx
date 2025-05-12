@@ -7,7 +7,7 @@ import service2 from '../assets/img/service-2.jpg';
 import service3 from '../assets/img/mengi.jpg';
 import service4 from '../assets/img/service-4.jpg';
 import service5 from '../assets/img/service-5.jpg';
-import service6 from  '../assets/img/service-6.PNG';
+import service6 from  '../assets/img/service-6.png';
 import service7 from '../assets/img/painting.jpeg';
 
 const Services = () => {
